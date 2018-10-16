@@ -18,3 +18,7 @@ This lab is about data preparation. Using Data Refinery to clean the data and fi
 * **IBM Cloud account:** You must have an IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, please create an account [here](https://ibm.biz/BdYpAy)
 
 # Steps
+
+# License
+[Apache 2.0](https://github.com/Meaad96s/datacleaning_episode2/blob/master/LICENSE)
+
