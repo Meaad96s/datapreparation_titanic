@@ -3,8 +3,6 @@ This lab is about data preparation. Using Data Refinery to clean the data and fi
 
 # Summary
 
-# Flow
-
 # Included Components
 * **IBM Watson Studio:** Analyze data using RStudio, Jupyter and Machine Learning Flow in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
