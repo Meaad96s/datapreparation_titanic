@@ -1,11 +1,11 @@
 # Data Preparation for Titanic Dataset
 This lab is about data preparation. Using IBM Data Refinery for shaping operations clean, organize, fix, and validate data.
 
-# Summary
+## Summary
 
 In the life-cycle of Data Science, data preparation is one of the most important stages. Data scientists spend 80% of their time cleansing, shaping and formatting data before doing any analysis. IBM Data Refinery, an intuitive cloud-based data preparation service, where you can quickly source, shape and share your data sets.
 
-# Included Components
+## Included Components
 
 * **IBM Watson Studio:** Analyze data using RStudio, Jupyter and Machine Learning Flow in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
@@ -13,16 +13,26 @@ In the life-cycle of Data Science, data preparation is one of the most important
 
 * **IBM Data Refinery:** A part of the Watson Data Platform integrated environment and is a self-service data preparation client for data scientists, data engineers, and business analysts. It can transform large amounts of raw data into consumable, quality information that’s ready for analytics. IBM Data Refinery makes it easy to explore, prepare, and deliver data.
 
-# Featured Technologies
+## Featured Technologies
 
-# Pre-requisites
+## Pre-requisites
 
-* **IBM Cloud account:** You must have an IBM Cloud account to work with this code pattern. If you do not have an IBM Cloud account, please create an account [here](https://ibm.biz/BdYpAy)
+* **IBM Cloud account:**  An account must exist to use the platform.
+* **Watson Studio service instance:** A service instance must exist to be able use **IBM Data Refinery**.
 
-# Capabilities
+## Capabilities
 ### Create an IBM cloud account
-An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to IBM Cloud. Make sure to set the region to US South.
+If you do not have an IBM Cloud account, please create an account [here](https://ibm.biz/BdYpAy)
+- A lite account, which is a free of charge. Make sure to set the region to US South.
 
+### Create a Watson Studio service instance
+If you don't have a **watson Studio** instance, please do the following:
+1.Select Catalog found at the top right of the page.
+2.Click on Watson from the menu on the left, which you can find under Platform services.
+3.Select Browse Services under **Watson Services**.
+4.Choose **watson Studio** instance
+
+### 
  ## missing values
  
  ## outliers 
