@@ -19,6 +19,9 @@ This lab is about data preparation. Using Data Refinery to clean the data and fi
 
 # Steps
 
+# Links
+[Data Refinery](https://dataplatform.cloud.ibm.com/docs/content/refinery/refining_data.html?context=analytics&linkInPage=true)
+
 # License
 [Apache 2.0](https://github.com/Meaad96s/datacleaning_episode2/blob/master/LICENSE)
 
