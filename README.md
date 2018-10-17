@@ -13,14 +13,12 @@ In the life-cycle of Data Science, data preparation is one of the most important
 
 * **IBM Data Refinery:** A part of the Watson Data Platform integrated environment and is a self-service data preparation client for data scientists, data engineers, and business analysts. It can transform large amounts of raw data into consumable, quality information that’s ready for analytics. IBM Data Refinery makes it easy to explore, prepare, and deliver data.
 
-## Featured Technologies
-
 ## Pre-requisites
 
 * **IBM Cloud account:**  An account must exist to use the platform.
 * **Watson Studio service instance:** A service instance must exist to be able use **IBM Data Refinery**.
 
-## Capabilities
+## Steps
 ### Create an IBM cloud account
 If you do not have an IBM Cloud account, please create an account [here](https://ibm.biz/BdYpAy)
 - A lite account, which is a free of charge. Make sure to set the region to US South.
@@ -37,16 +35,22 @@ If you don't have a **watson Studio** instance, please do the following:
 
 ### Create a Complete Project in Watson Studio
 Select **Refine Data** in the get started page. A prompt box will ask to create a project if you previously don't have one.
-32
+
+![](https://user-images.githubusercontent.com/20974667/47075480-5060f100-d205-11e8-963f-e0dbc2917e6a.png)
 
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
 ### Upload Dataset
-Under the **Asset** page of the project, Choose this icon on the right to upload the dataset.
+Under the **Asset** page of the project, Choose this icon <img width="39" alt="dataicon" src="https://user-images.githubusercontent.com/20974667/47075498-5b1b8600-d205-11e8-957c-10fa11498354.PNG"> on the right to upload the dataset.
 * Click browse to navigate your computer where the dataset set can be found.
-* After it's uploaded, it will listed in the **Data asset**.
+* After it's uploaded, it will be listed in the **Data asset**.
 
- ## missing values
+### Open Data Refinery
+To start the process, go to the triple dots in the right side of the data asset bar to open **Data Refinery**.
+
+![](https://user-images.githubusercontent.com/20974667/47076141-b8640700-d206-11e8-8423-e7eb74018558.png)
+
+## missing values
  
  ## outliers 
  
