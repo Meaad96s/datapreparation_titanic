@@ -46,7 +46,7 @@ Under the **Asset** page of the project, Choose this icon <img width="39" alt="d
 * After it's uploaded, it will be listed in the **Data asset**.
 
 ### Open Data Refinery
-To start the process, go to the triple dots in the right side of the data asset bar to open **Data Refinery**.
+To start the process, press the triple dots in the right side of the **train.csv** bar to open **Refine**.
 
 ![](https://user-images.githubusercontent.com/20974667/47076141-b8640700-d206-11e8-8423-e7eb74018558.png)
 
