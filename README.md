@@ -41,10 +41,10 @@ Select **Refine Data** in the get started page. A prompt box will ask to create 
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
 ### Upload Dataset
-This lab will use Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/Titanic_Dataset.zip)
+The operations will be done using Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/Titanic_Dataset.zip)
 
 Under the **Asset** tab in the project, choose this icon <img width="39" alt="dataicon" src="https://user-images.githubusercontent.com/20974667/47075498-5b1b8600-d205-11e8-957c-10fa11498354.PNG"> on the right to upload the dataset to the platform.
-* Click browse to navigate your computer where the dataset set can be found.
+* Click browse to navigate your folders where the dataset set can be found.
 * After it's uploaded, it will be listed in the **Data asset**.
 
 ### Open Data Refinery
