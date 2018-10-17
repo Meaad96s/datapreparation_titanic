@@ -31,8 +31,21 @@ If you don't have a **watson Studio** instance, please do the following:
 2.Click on Watson from the menu on the left, which you can find under Platform services.
 3.Select Browse Services under **Watson Services**.
 4.Choose **watson Studio** instance
+<p align="center"><img width="947" alt="untitled" src="https://user-images.githubusercontent.com/20974667/47021511-4509b900-d164-11e8-82e4-e13475ba4dbf.png">
+ 
+* Once the main page of the service appears, click on Get Started. This will redirect the browser to the Watson Studio platform. It might ask to confirm IBM Cloud organization and space information.
 
-### 
+### Create a Complete Project in Watson Studio
+Select **Refine Data** in the get started page. A prompt box will ask to create a project if you previously don't have one.
+32
+
+* Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
+
+### Upload Dataset
+Under the **Asset** page of the project, Choose this icon on the right to upload the dataset.
+* Click browse to navigate your computer where the dataset set can be found.
+* After it's uploaded, it will listed in the **Data asset**.
+
  ## missing values
  
  ## outliers 
