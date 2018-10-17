@@ -52,7 +52,20 @@ To start the process, press the triple dots in the right side of the **train.csv
 
 ![](https://user-images.githubusercontent.com/20974667/47076141-b8640700-d206-11e8-8423-e7eb74018558.png)
 
+### Convert Column Type
+
+All the columns initially are of type string, for better shaping, convert those integer values columns from string to integer.
+From the triple dot menu that appears in the right side of each column, select **Convert Column type** and choose the type.
+In Titanic's use case, the columns that are converted to **integer** are Survived, PClass, Sibsp and Parch.
+The columns are converted to **decimanl** are Age and Fare.
+![](https://user-images.githubusercontent.com/20974667/47091437-8dd97480-d22d-11e8-9d71-42991bfa8f50.png)
+
+
 ## missing values
+
+The columns that have missing values in Titanic dataset are Age, Cabin and Embarked.
+The method to fulfill the missing values is by calculating the mean of the column values and placing it in the null values.
+Under the menu of each intended column, select calculate
  
  ## outliers 
  
