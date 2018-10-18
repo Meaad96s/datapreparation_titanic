@@ -64,7 +64,23 @@ The columns are converted to **decimanl** are Age and Fare.
 ## missing values
 
 The columns that have missing values in Titanic dataset are Age, Cabin and Embarked.
-The method to fulfill the missing values is by calculating the mean of the column values and placing it in the null values.
+The methods to fulfill the missing values are different for each attribute depending on the purpose of the attribute.
+
+So, to fill the missing values in **Embarked** attribute, we only fill it with 'S' knwong that the passengers actually embarked at Southampton.
+
+
+For **Cabin** attribute, since tracing the actual cabin for each passenger is impossible. Handling this attribute by creating additional column that has 1 for a passenger who's cabin exists and 0 if it does not exist. Relating to the accident, known passenger's cabin indicate that they survived. To do that follow the below steps:
+
+* Press the triple dot menu in the Cabin column.
+* Select **Conditional Replace** under the Organize _Category_
+![](https://user-images.githubusercontent.com/20974667/47149880-8a9dc180-d2dd-11e8-91df-a0842297957d.png)
+* Add two conditions in Cabin's column, if value **empty** replace it with 0, if not empty replace with 1.
+![](https://user-images.githubusercontent.com/20974667/47149881-8b365800-d2dd-11e8-8c2c-a7b188baccfb.png)
+* Choose Cabin column in the option of _Replace any remaining values with*
+![](https://user-images.githubusercontent.com/20974667/47149882-8b365800-d2dd-11e8-9a94-510c9ef03323.png)
+
+
+For **age** attribute, clculate the mean of the column values and placing it in the null values.
 Under the menu of each intended column, select calculate
  
  ## outliers 
