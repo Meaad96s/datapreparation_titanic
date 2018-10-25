@@ -85,13 +85,13 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 ![](https://user-images.githubusercontent.com/20974667/47149882-8b365800-d2dd-11e8-9a94-510c9ef03323.png)
 
 
-For **age** attribute, clculate the mean of the column values and placing it in the null values.
+For **age** attribute, calculate the mean of the column values and placing it in the null values.
 To replace missing values by the mean of the column, do the following:
 1.From the triple dot menu choose **filer**.
 
 ![](https://user-images.githubusercontent.com/20974667/47507781-817f9800-d87b-11e8-8985-aa6f603768bb.png)
 
-2.Select _column_ **Age** and **not empty** under _operator_.
+2.Select _column_ **Age** and **Is not empty** under _operator_ for the filteration condition.
 
 ![](https://user-images.githubusercontent.com/20974667/47507780-80e70180-d87b-11e8-9a4c-0ca3e085e156.png)
 
@@ -100,7 +100,7 @@ To replace missing values by the mean of the column, do the following:
 ![](https://user-images.githubusercontent.com/20974667/47507775-804e6b00-d87b-11e8-9da8-78bff22d0d6e.png)
 
 4. Fill in the operation command the required variables like this Summarize(newVarName=operator(column))
-`summarize(newAge= mean(`Age`))`
+`summarize(newAge= mean(``Age``))`
 ![](https://user-images.githubusercontent.com/20974667/47507779-80e70180-d87b-11e8-9368-11a260cbbc1b.png)
 ![](https://user-images.githubusercontent.com/20974667/47507776-80e70180-d87b-11e8-802c-1dc37cfc58ee.png)
  ## outliers 
