@@ -86,7 +86,10 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 
 
 For **age** attribute, clculate the mean of the column values and placing it in the null values.
-Under the menu of each intended column, select calculate
+To replace missing values by the mean of the column, do the following:
+1.From the **Operation** Bar, select **Summarize** operator
+2. Fill in the operation command the required variables.
+`summarize(newAge= mean(`Age`))`
  
  ## outliers 
  
