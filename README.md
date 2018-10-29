@@ -123,6 +123,8 @@ Titanic dataset does not have sensitive information that should be unique except
 
 ![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
+# Summary
+Now the dataset is prepared and ready to be fed for the machine learning model or used in data visualization.
 # Links
 [Data Refinery](https://dataplatform.cloud.ibm.com/docs/content/refinery/refining_data.html?context=analytics&linkInPage=true)
 
