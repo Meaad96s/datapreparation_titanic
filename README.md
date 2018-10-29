@@ -117,9 +117,11 @@ Since the filteration and the new summerized value is now useless.
 Insert the mean value to be replaced with and press _Apply_ button.
 ![](https://user-images.githubusercontent.com/20974667/47641669-b8092b80-db77-11e8-9478-0aa572041a60.png)
 
- ## outliers 
- 
  ## duplicates
+
+Titanic dataset does not have sensitive information that should be unique except for the passenger ID. Simply select the triple dot menu in **Passenger Id** column and choose **Remove duplicates**.
+
+![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
 # Links
 [Data Refinery](https://dataplatform.cloud.ibm.com/docs/content/refinery/refining_data.html?context=analytics&linkInPage=true)
