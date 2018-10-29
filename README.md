@@ -113,7 +113,8 @@ Since the filteration and the new summerized value is now useless.
 6. Select **Age** column again, from the triple dot menu choose **Replace missing values**
 
 ![](https://user-images.githubusercontent.com/20974667/47641662-b3dd0e00-db77-11e8-9702-70adea3d79fb.png)
-Insert the summerized value to be replaced with and press _Apply_ button.
+
+Insert the mean value to be replaced with and press _Apply_ button.
 ![](https://user-images.githubusercontent.com/20974667/47641669-b8092b80-db77-11e8-9478-0aa572041a60.png)
 
  ## outliers 
