@@ -87,22 +87,35 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 
 For **age** attribute, calculate the mean of the column values and placing it in the null values.
 To replace missing values by the mean of the column, do the following:
-1.From the triple dot menu choose **filer**.
+1. From the triple dot menu choose **filer**.
 
 ![](https://user-images.githubusercontent.com/20974667/47507781-817f9800-d87b-11e8-8985-aa6f603768bb.png)
 
-2.Select _column_ **Age** and **Is not empty** under _operator_ for the filteration condition.
+2. Select _column_ **Age** and **Is not empty** under _operator_ for the filteration condition.
 
 ![](https://user-images.githubusercontent.com/20974667/47507780-80e70180-d87b-11e8-9a4c-0ca3e085e156.png)
 
-3.From the **Operation** Bar, select **Summarize** operator.
+3. From the **Operation** Bar, select **Summarize** operator.
 
 ![](https://user-images.githubusercontent.com/20974667/47507775-804e6b00-d87b-11e8-9da8-78bff22d0d6e.png)
 
 4. Fill in the operation command the required variables like this Summarize(newVarName=operator(column))
 `summarize(newAge= mean(``Age``))`
 ![](https://user-images.githubusercontent.com/20974667/47507779-80e70180-d87b-11e8-9368-11a260cbbc1b.png)
+
 ![](https://user-images.githubusercontent.com/20974667/47507776-80e70180-d87b-11e8-802c-1dc37cfc58ee.png)
+
+5. Copy the geneated value to use after, and undo last two action from the backward arrow above.
+Since the filteration and the new summerized value is now useless.
+
+![](https://user-images.githubusercontent.com/20974667/47641516-5a74df00-db77-11e8-9d95-cbabda71f10a.png)
+
+6. Select **Age** column again, from the triple dot menu choose **Replace missing values**
+
+![](https://user-images.githubusercontent.com/20974667/47641662-b3dd0e00-db77-11e8-9702-70adea3d79fb.png)
+Insert the summerized value to be replaced with and press _Apply_ button.
+![](https://user-images.githubusercontent.com/20974667/47641669-b8092b80-db77-11e8-9478-0aa572041a60.png)
+
  ## outliers 
  
  ## duplicates
