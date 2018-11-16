@@ -25,16 +25,17 @@ If you do not have an IBM Cloud account, create an account [here](https://ibm.bi
 
 ### Create a Watson Studio service instance
 If you don't have a **watson Studio** instance, do the following:
-1.Select Catalog found at the top right of the page.
-2.Click on Watson from the menu on the left, which you can find under Platform services.
-3.Select Browse Services under **Watson Services**.
-4.Choose **watson Studio** instance
+
+1. Select Catalog found at the top right of the page.
+2. Click on Watson from the menu on the left, which you can find under Platform services.
+3. Select Browse Services under **Watson Services**.
+4. Choose **watson Studio** instance
 <p align="center"><img width="947" alt="untitled" src="https://user-images.githubusercontent.com/20974667/47021511-4509b900-d164-11e8-82e4-e13475ba4dbf.png">
  
-* Once the main page of the service appears, click on Get Started. This will redirect the browser to the Watson Studio platform. It might ask to confirm IBM Cloud organization and space information.
+* Once the main page of the service appears, click on Get Started. This will redirect your browser to the Watson Studio platform. It might ask to confirm IBM Cloud organization and space information.
 
 ### Create a Complete Project in Watson Studio
-Select **Refine Data** in the get started page. A prompt box will ask to create a project if you previously don't have one.
+Select **Refine Data** in the get started page. A prompt box will ask you to create a project if you previously don't have one.
 
 ![](https://user-images.githubusercontent.com/20974667/47075480-5060f100-d205-11e8-963f-e0dbc2917e6a.png)
 
