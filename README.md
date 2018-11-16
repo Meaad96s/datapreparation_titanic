@@ -3,7 +3,9 @@ This lab is about data preparation. Using IBM Data Refinery for shaping operatio
 
 ## Summary
 
-In the life-cycle of Data Science, data preparation is one of the most important stages. Data scientists spend 80% of their time cleansing, shaping and formatting data before doing any analysis. IBM Data Refinery, an intuitive cloud-based data preparation service, where you can quickly source, shape and share your data sets.
+In the life-cycle of Data Science, data preparation is one of the most important stages. Data scientists spend 80% of their time cleansing, shaping and formatting data before doing any analysis. IBM Data Refinery, an intuitive cloud-based data preparation service, where you can quickly source, shape and share your data sets. This lab is about 7 minutes long; it will introduce you to **IBM Data Refinery**'s capabilities and how can you utilize it to prepare your data.
+
+The use-case of this lab is Titanic data set. It has 12 columns of type integer, double and string. Some columns need shaping or cleaning operarions to make use of the data to the full extent.
 
 ## Included Components
 
@@ -124,8 +126,7 @@ Titanic data set does not have sensitive information that should be unique excep
 
 ![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
-# Summary
-Now you have the basic knowledge to prepare a data using IBM Data Refinery. Titanic data set is prepared and ready to be fed for the machine learning model or used in data visualization.
+
 # Links
 [Data Refinery](https://dataplatform.cloud.ibm.com/docs/content/refinery/refining_data.html?context=analytics&linkInPage=true)
 
