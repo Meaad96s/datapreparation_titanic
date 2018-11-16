@@ -41,7 +41,7 @@ Select **Refine Data** in the get started page. A prompt box will ask to create 
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
 ### Upload Dataset
-The operations will be done using Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/train.csv), save the csv file to apply the following steps.
+The operations will be done using Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/titanic.csv), save the csv file to apply the following steps.
 
 Under the **Asset** tab in the project, choose this icon <img width="39" alt="dataicon" src="https://user-images.githubusercontent.com/20974667/47075498-5b1b8600-d205-11e8-957c-10fa11498354.PNG"> on the right to upload the dataset to the platform.
 * Click browse to navigate your folders where the dataset set can be found, select file **train.csv**.
