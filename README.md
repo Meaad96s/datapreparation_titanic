@@ -110,7 +110,7 @@ Since the filteration and the new summerized value is now useless.
 
 ![](https://user-images.githubusercontent.com/20974667/47641516-5a74df00-db77-11e8-9d95-cbabda71f10a.png)
 
-6. Select **Age** column again, from the Action menu choose **Replace missing values**
+6. Select **Age** column again, from the Actions menu choose **Replace missing values**
 
 ![](https://user-images.githubusercontent.com/20974667/47641662-b3dd0e00-db77-11e8-9702-70adea3d79fb.png)
 
@@ -119,7 +119,7 @@ Insert the mean value to be replaced with and press _Apply_ button.
 
  ## duplicates
 
-Titanic data set does not have sensitive information that should be unique except for the passenger ID. Simply select the Action menu in **Passenger Id** column and choose **Remove duplicates**.
+Titanic data set does not have sensitive information that should be unique except for the passenger ID. Simply select the Actions menu in **Passenger Id** column and choose **Remove duplicates**.
 
 ![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
