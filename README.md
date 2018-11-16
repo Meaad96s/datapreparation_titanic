@@ -20,11 +20,11 @@ In the life-cycle of Data Science, data preparation is one of the most important
 
 ## Steps
 ### Create an IBM cloud account
-If you do not have an IBM Cloud account, please create an account [here](https://ibm.biz/BdYpAy)
+If you do not have an IBM Cloud account, create an account [here](https://ibm.biz/BdYpAy)
 - A lite account, which is a free of charge. Make sure to set the region to US South.
 
 ### Create a Watson Studio service instance
-If you don't have a **watson Studio** instance, please do the following:
+If you don't have a **watson Studio** instance, do the following:
 1.Select Catalog found at the top right of the page.
 2.Click on Watson from the menu on the left, which you can find under Platform services.
 3.Select Browse Services under **Watson Services**.
@@ -41,7 +41,7 @@ Select **Refine Data** in the get started page. A prompt box will ask to create 
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
 ### Upload Dataset
-The operations will be done using Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/Titanic_Dataset.zip), decompress the folder to apply the following steps.
+The operations will be done using Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/train.csv), save the csv file to apply the following steps.
 
 Under the **Asset** tab in the project, choose this icon <img width="39" alt="dataicon" src="https://user-images.githubusercontent.com/20974667/47075498-5b1b8600-d205-11e8-957c-10fa11498354.PNG"> on the right to upload the dataset to the platform.
 * Click browse to navigate your folders where the dataset set can be found, select file **train.csv**.
@@ -55,7 +55,7 @@ To start the process, press the triple dots in the right side of the **train.csv
 ### Convert Column Type
 
 All the columns initially are of type string, for better shaping, convert those integer values columns from string to integer.
-From the triple dot menu that appears in the right side of each column, select **Convert Column type** and choose the type.
+From the Actions menu (triple dot) that appears in the right side of each column, select **Convert Column type** and choose the type.
 In Titanic's use case, the columns that are converted to **integer** are Survived, PClass, Sibsp and Parch.
 The columns are converted to **decimanl** are Age and Fare.
 ![](https://user-images.githubusercontent.com/20974667/47091437-8dd97480-d22d-11e8-9d71-42991bfa8f50.png)
@@ -71,7 +71,7 @@ So, to fill the missing values in **Embarked** attribute, we only fill it with '
 
 For **Cabin** attribute, since tracing the actual cabin for each passenger is impossible. Handling this attribute by creating additional column that has 1 for a passenger who's cabin exists and 0 if it does not exist. Relating to the accident, known passenger's cabin indicate that they survived. To do that follow the below steps:
 
-* Press the triple dot menu in the Cabin column.
+* Press the Actions menu in the Cabin column.
 * Select **Conditional Replace** under the _Organize _ Category
 
 ![](https://user-images.githubusercontent.com/20974667/47149880-8a9dc180-d2dd-11e8-91df-a0842297957d.png)
@@ -87,11 +87,11 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 
 For **age** attribute, calculate the mean of the column values and placing it in the null values.
 To replace missing values by the mean of the column, do the following:
-1. From the triple dot menu choose **filer**.
+1. From the Actions menuu choose **Filter condition**.
 
 ![](https://user-images.githubusercontent.com/20974667/47507781-817f9800-d87b-11e8-8985-aa6f603768bb.png)
 
-2. Select _column_ **Age** and **Is not empty** under _operator_ for the filteration condition.
+2. Select _column_ **Age** and **Is not empty** under _operator_ for the Filteration condition.
 
 ![](https://user-images.githubusercontent.com/20974667/47507780-80e70180-d87b-11e8-9a4c-0ca3e085e156.png)
 
@@ -110,7 +110,7 @@ Since the filteration and the new summerized value is now useless.
 
 ![](https://user-images.githubusercontent.com/20974667/47641516-5a74df00-db77-11e8-9d95-cbabda71f10a.png)
 
-6. Select **Age** column again, from the triple dot menu choose **Replace missing values**
+6. Select **Age** column again, from the Action menu choose **Replace missing values**
 
 ![](https://user-images.githubusercontent.com/20974667/47641662-b3dd0e00-db77-11e8-9702-70adea3d79fb.png)
 
@@ -119,12 +119,12 @@ Insert the mean value to be replaced with and press _Apply_ button.
 
  ## duplicates
 
-Titanic dataset does not have sensitive information that should be unique except for the passenger ID. Simply select the triple dot menu in **Passenger Id** column and choose **Remove duplicates**.
+Titanic data set does not have sensitive information that should be unique except for the passenger ID. Simply select the Action menu in **Passenger Id** column and choose **Remove duplicates**.
 
 ![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
 # Summary
-Now you have the basic knowledge to prepare a data using IBM Data Refinery. Titanic dataset is prepared and ready to be fed for the machine learning model or used in data visualization.
+Now you have the basic knowledge to prepare a data using IBM Data Refinery. Titanic data set is prepared and ready to be fed for the machine learning model or used in data visualization.
 # Links
 [Data Refinery](https://dataplatform.cloud.ibm.com/docs/content/refinery/refining_data.html?context=analytics&linkInPage=true)
 
