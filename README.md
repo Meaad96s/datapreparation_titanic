@@ -75,7 +75,7 @@ So, to fill the missing values in **Embarked** attribute, we only fill it with '
 For **Cabin** attribute, since tracing the actual cabin for each passenger is impossible. Handling this attribute by creating additional column that has 1 for a passenger who's cabin exists and 0 if it does not exist. Relating to the accident, known passenger's cabin indicate that they survived. To do that follow the below steps:
 
 * Press the Actions menu in the Cabin column.
-* Select **Conditional Replace** under the _Organize _ Category
+* Select **Conditional Replace** under the _Organize_ Category
 
 ![](https://user-images.githubusercontent.com/20974667/47149880-8a9dc180-d2dd-11e8-91df-a0842297957d.png)
 
