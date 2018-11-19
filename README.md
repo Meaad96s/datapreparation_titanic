@@ -18,7 +18,7 @@ The use-case of this lab is Titanic data set. It has 12 columns of type integer,
 ## Pre-requisites
 
 * **IBM Cloud account:**  An account must exist to use the platform.
-* **Watson Studio service instance:** A service instance must exist to be able use **IBM Data Refinery**.
+* **Watson Studio service instance:** A service instance must exist to be able to use **IBM Data Refinery**.
 
 ## Steps
 ### Create an IBM cloud account
