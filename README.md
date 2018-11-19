@@ -55,7 +55,7 @@ The operations will be done using Titanic dataset which can be downloaded from !
 
 Under the **Asset** tab in the project, choose this icon <img width="39" alt="dataicon" src="https://user-images.githubusercontent.com/20974667/47075498-5b1b8600-d205-11e8-957c-10fa11498354.PNG"> on the right to upload the dataset to the platform.
 * Click browse to navigate your folders where the dataset set can be found, select file **train.csv**.
-* After it's uploaded, it will be listed in the **Data asset**.
+* After it's uploaded, it will be listed in the **Data assets**.
 
 ![](https://user-images.githubusercontent.com/20974667/48709558-da421680-ec16-11e8-8592-9f96cc9de726.png)
 
