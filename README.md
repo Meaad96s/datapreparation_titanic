@@ -23,7 +23,7 @@ The use-case of this lab is Titanic data set. It has 12 columns of type integer,
 ## Steps
 ### Create an IBM cloud account
 If you do not have an IBM Cloud account, create an account [here](https://ibm.biz/BdYpAy)
-- A lite account, which is a free of charge. Make sure to set the region to US South.
+- A Lite account, which is a free of charge. Make sure to set the region to US South.
 
 ### Create a Watson Studio service instance
 If you don't have a **watson Studio** instance, do the following:
@@ -32,16 +32,26 @@ If you don't have a **watson Studio** instance, do the following:
 2. Click on Watson from the menu on the left, which you can find under Platform services.
 3. Select Browse Services under **Watson Services**.
 4. Choose **watson Studio** instance
-<p align="center"><img width="947" alt="untitled" src="https://user-images.githubusercontent.com/20974667/47021511-4509b900-d164-11e8-82e4-e13475ba4dbf.png">
+<p align="center"><img width="947" alt="untitled" src="https://user-images.githubusercontent.com/20974667/48708706-50914980-ec14-11e8-8768-23092ab0b330.png"> 
  
 * Once the main page of the service appears, click on Get Started. This will redirect your browser to the Watson Studio platform. It might ask to confirm IBM Cloud organization and space information.
 
-### Create a Complete Project in Watson Studio
-Select **Refine Data** in the get started page. A prompt box will ask you to create a project if you previously don't have one.
+### Create a Standard Project in Watson Studio
+From the Get Started page, select **Creat a Project**
+
+![](https://user-images.githubusercontent.com/20974667/48708691-4a9b6880-ec14-11e8-8936-64d0ec4f6b8b.png)
+
+Then Choose a **Standard plan**
+
+![](https://user-images.githubusercontent.com/20974667/48708692-4a9b6880-ec14-11e8-88a6-928cc5646f13.png)
+
+* Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
+
+![](https://user-images.githubusercontent.com/20974667/48708694-4b33ff00-ec14-11e8-8344-ec0ff1af8ede.png)
 
 ![](https://user-images.githubusercontent.com/20974667/47075480-5060f100-d205-11e8-963f-e0dbc2917e6a.png)
 
-* Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
+
 
 ### Upload Dataset
 The operations will be done using Titanic dataset which can be downloaded from ![here](https://github.com/Meaad96s/datapreparation_titanic/blob/master/titanic.csv), save the csv file to apply the following steps.
