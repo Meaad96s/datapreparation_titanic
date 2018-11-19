@@ -47,10 +47,7 @@ Then Choose a **Standard plan**
 
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
-![](https://user-images.githubusercontent.com/20974667/48708694-4b33ff00-ec14-11e8-8344-ec0ff1af8ede.png)
-
-![](https://user-images.githubusercontent.com/20974667/47075480-5060f100-d205-11e8-963f-e0dbc2917e6a.png)
-
+![](https://user-images.githubusercontent.com/20974667/48709557-da421680-ec16-11e8-8c07-c90b29db12e2.png)
 
 
 ### Upload Dataset
@@ -60,8 +57,10 @@ Under the **Asset** tab in the project, choose this icon <img width="39" alt="da
 * Click browse to navigate your folders where the dataset set can be found, select file **train.csv**.
 * After it's uploaded, it will be listed in the **Data asset**.
 
+![](https://user-images.githubusercontent.com/20974667/48709558-da421680-ec16-11e8-8592-9f96cc9de726.png)
+
 ### Open Data Refinery
-To start the process, press the triple dots in the right side of the **train.csv** bar to open **Refine**.
+To start the process, press the Action Menu in the right side of the **train.csv** bar to open **Refine**.
 
 ![](https://user-images.githubusercontent.com/20974667/47076141-b8640700-d206-11e8-8423-e7eb74018558.png)
 
