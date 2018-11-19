@@ -60,14 +60,14 @@ Under the **Asset** tab in the project, choose this icon <img width="39" alt="da
 ![](https://user-images.githubusercontent.com/20974667/48709558-da421680-ec16-11e8-8592-9f96cc9de726.png)
 
 ### Open Data Refinery
-To start the process, press the Action Menu in the right side of the **train.csv** bar to open **Refine**.
+To start the process, press the Action Menu (triple dot) in the right side of the **train.csv** bar to open **Refine**.
 
 ![](https://user-images.githubusercontent.com/20974667/47076141-b8640700-d206-11e8-8423-e7eb74018558.png)
 
 ### Convert Column Type
 
 All the columns initially are of type string, for better shaping, convert those integer values columns from string to integer.
-From the Actions menu (triple dot) that appears in the right side of each column, select **Convert Column type** and choose the type.
+From the Action menu  that appears in the right side of each column, select **Convert Column type** and choose the type.
 In Titanic's use case, the columns that are converted to **integer** are Survived, PClass, Sibsp and Parch.
 The columns are converted to **decimanl** are Age and Fare.
 ![](https://user-images.githubusercontent.com/20974667/47091437-8dd97480-d22d-11e8-9d71-42991bfa8f50.png)
@@ -99,7 +99,7 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 
 For **age** attribute, calculate the mean of the column values and placing it in the null values.
 To replace missing values by the mean of the column, do the following:
-1. From the Actions menuu choose **Filter condition**.
+1. From the Actions menu choose **Filter condition**.
 
 ![](https://user-images.githubusercontent.com/20974667/47507781-817f9800-d87b-11e8-8985-aa6f603768bb.png)
 
@@ -122,7 +122,7 @@ Since the filteration and the new summerized value is now useless.
 
 ![](https://user-images.githubusercontent.com/20974667/47641516-5a74df00-db77-11e8-9d95-cbabda71f10a.png)
 
-6. Select **Age** column again, from the Actions menu choose **Replace missing values**
+6. Select **Age** column again, from the Action menu choose **Replace missing values**
 
 ![](https://user-images.githubusercontent.com/20974667/47641662-b3dd0e00-db77-11e8-9702-70adea3d79fb.png)
 
@@ -131,7 +131,7 @@ Insert the mean value to be replaced with and press _Apply_ button.
 
  ## duplicates
 
-Titanic data set does not have sensitive information that should be unique except for the passenger ID. Simply select the Actions menu in **Passenger Id** column and choose **Remove duplicates**.
+Titanic data set does not have sensitive information that should be unique except for the passenger ID. Simply select the Action menu in **Passenger Id** column and choose **Remove duplicates**.
 
 ![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
