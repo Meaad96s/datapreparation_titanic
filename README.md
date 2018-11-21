@@ -5,7 +5,7 @@ This lab is about data preparation. Using IBM Data Refinery for shaping operatio
 
 In the life-cycle of Data Science, data preparation is one of the most important stages. Data scientists spend 80% of their time cleansing, shaping and formatting data before doing any analysis. IBM Data Refinery, an intuitive cloud-based data preparation service, where you can quickly source, shape and share your data sets. This lab is about 7 minutes long; it will introduce you to **IBM Data Refinery**'s capabilities and how can you utilize it to prepare your data.
 
-The use-case of this lab is Titanic data set. It has 12 columns of type integer, double and string. Some columns need shaping or cleaning operarions to make use of the data to the full extent. Mostly we will fill missing values with different approaches. The lab takes approximately 10 minutes.
+The use-case of this lab is the Titanic data set. It has 12 columns of type integer, double and string. Some columns need shaping or cleaning operarions to make use of the data to the full extent. Mostly we will fill missing values with different approaches. The lab takes approximately 10 minutes.
 
 ## Included Components
 
@@ -26,12 +26,12 @@ If you do not have an IBM Cloud account, create an account [here](https://ibm.bi
 - A Lite account, which is a free of charge. Make sure to set the region to US South.
 
 ### Create a Watson Studio service instance
-If you don't have a **watson Studio** instance, do the following:
+If you don't have a **Watson Studio** instance, do the following:
 
 1. Select Catalog found at the top right of the page.
 2. Click on Watson from the menu on the left, which you can find under Platform services.
 3. Select Browse Services under **Watson Services**.
-4. Choose **watson Studio** instance
+4. Choose **Watson Studio** instance
 <p align="center"><img width="947" alt="untitled" src="https://user-images.githubusercontent.com/20974667/48708706-50914980-ec14-11e8-8768-23092ab0b330.png"> 
  
 * Once the main page of the service appears, click on Get Started. This will redirect your browser to the Watson Studio platform. It might ask to confirm IBM Cloud organization and space information.
@@ -73,7 +73,7 @@ The columns are converted to **decimanl** are Age and Fare.
 ![](https://user-images.githubusercontent.com/20974667/47091437-8dd97480-d22d-11e8-9d71-42991bfa8f50.png)
 
 
-## missing values
+## Missing Values
 
 The columns that have missing values in Titanic dataset are Age, Cabin and Embarked.
 The methods to fulfill the missing values are different for each attribute depending on the purpose of the attribute.
@@ -97,7 +97,7 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 ![](https://user-images.githubusercontent.com/20974667/47149882-8b365800-d2dd-11e8-9a94-510c9ef03323.png)
 
 
-For **age** attribute, calculate the mean of the column values and placing it in the null values.
+For **Age** attribute, calculate the mean of the column values and placing it in the null values.
 To replace missing values by the mean of the column, do the following:
 1. From the Actions menu choose **Filter condition**.
 
