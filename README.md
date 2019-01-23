@@ -1,11 +1,19 @@
 # Data Preparation for Titanic Dataset
 This lab is about data preparation. Using IBM Data Refinery for shaping operations clean, organize, fix, and validate data.
 
-## Summary
+## Introduction
 
-In the life-cycle of Data Science, data preparation is one of the most important stages. Data scientists spend 80% of their time cleansing, shaping and formatting data before doing any analysis. IBM Data Refinery, an intuitive cloud-based data preparation service, where you can quickly source, shape and share your data sets. This lab is about 7 minutes long; it will introduce you to **IBM Data Refinery**'s capabilities and how can you utilize it to prepare your data.
+In the life-cycle of Data Science, data preparation is one of the most important stages. Data scientists spend 80% of their time cleansing, shaping and formatting data before doing any analysis. IBM Data Refinery, an intuitive cloud-based data preparation service, where you can quickly source, shape and share your data sets. This lab is a short introductory for data wrangling; it will introduce you to **IBM Data Refinery**'s capabilities and how can you utilize it to prepare your data.
 
-The use-case of this lab is Titanic data set. It has 12 columns of type integer, double and string. Some columns need shaping or cleaning operarions to make use of the data to the full extent. Mostly we will fill missing values with different approaches. The lab takes approximately 10 minutes.
+The use-case of this lab is Titanic data set. It has 12 columns of type integer, double and string. Some columns need shaping or cleaning operarions to make use of the data to the full extent. Mostly we will fill missing values with different approaches.
+
+## Learning objectives.
+
+You will acquire the skills of data engineering by cleaning, fomatting and shaping your data. If you have a poor data you will have a poor results.
+
+## Estimated time
+
+The lab takes approximately 10 minutes long.
 
 ## Included Components
 
@@ -135,6 +143,9 @@ Titanic data set does not have sensitive information that should be unique excep
 
 ![](https://user-images.githubusercontent.com/20974667/47646564-5b147200-db85-11e8-9131-c9c5e934703d.png)
 
+## Summary
+
+We have learned the first stage of the data science, where the outcome of this stage decide the success of the futher stages.IBM Data Refinery helps developer get rhough data cleaning in a fast approach with no coding requirements.
 
 # Links
 [Data Refinery](https://dataplatform.cloud.ibm.com/docs/content/refinery/refining_data.html?context=analytics&linkInPage=true)
