@@ -9,7 +9,9 @@ The use-case of this lab is Titanic data set. It has 12 columns of type integer,
 
 ## Learning objectives.
 
-You will acquire the skills of data engineering by cleaning, fomatting and shaping your data. If you have a poor data you will have a poor results.
+* Acquire the skills of data engineering/cleaning
+* How to fomat and shape your data according to your project requirement. 
+If you have a poor data you will have a poor results.
 
 ## Estimated time
 
