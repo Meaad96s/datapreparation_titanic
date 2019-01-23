@@ -12,7 +12,7 @@ The use-case of this lab is Titanic data set. It has 12 columns of type integer,
 * Acquire the skills of data engineering/cleaning
 * How to fomat and shape your data according to your project requirement. 
 
-If you have a poor data you will have a poor results.
+If you have  poor data you will have poor results.
 
 ## Estimated time
 
