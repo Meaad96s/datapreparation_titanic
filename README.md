@@ -103,7 +103,7 @@ For **Cabin** attribute, since tracing the actual cabin for each passenger is im
 
 ![](https://user-images.githubusercontent.com/20974667/47149881-8b365800-d2dd-11e8-8c2c-a7b188baccfb.png)
 
-* Choose Cabin column, in the option of ( __Replace any remaining values__) with 1
+* Choose Cabin column, in the option of __Replace__ put 1
 
 ![](https://user-images.githubusercontent.com/20974667/47149882-8b365800-d2dd-11e8-9a94-510c9ef03323.png)
 
